@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>23</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>ES</IdPaese>
+          <IdCodice>W0184081H</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Amazon EU S.à r.l., Sucursal en España</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF18</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>28045</Indirizzo>
+        <CAP>00000</CAP>
+        <Comune>Madrid</Comune>
+        <Nazione>ES</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03166360218</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03166360218</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>EnExpert SNC</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Julius Durst</Indirizzo>
+        <NumeroCivico>44</NumeroCivico>
+        <CAP>39042</CAP>
+        <Comune>Bressanone</Comune>
+        <Provincia>BZ</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <SoggettoEmittente>CC</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD18</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2025-02-13</Data>
+        <Numero>AF01 23/25</Numero>
+        <ImportoTotaleDocumento>4.49</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+      <DatiOrdineAcquisto>
+        <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+        <IdDocumento>ES5GGZVAEUI</IdDocumento>
+      </DatiOrdineAcquisto>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Kopp - Presa elettrica con contatto di protezione, colore: bianco/marrone, 101802000</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>3.68</PrezzoUnitario>
+        <PrezzoTotale>3.68</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>3.68</ImponibileImporto>
+        <Imposta>0.81</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP08</ModalitaPagamento>
+        <DataScadenzaPagamento>2025-02-13</DataScadenzaPagamento>
+        <ImportoPagamento>4.49</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>
